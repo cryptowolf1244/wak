@@ -9,7 +9,7 @@ import time
 import os
 from datetime import datetime
 import matplotlib as mp
-
+ 
 def get_historical_candles(client: Client, symbol, interval, start_time, end_time = None, market = "spot", alwaysUpdate = False):
     # - Get historical klines from binance
     # - Start and End times has to be in this format: 2022-03-12 00:00:00
